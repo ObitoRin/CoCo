@@ -1,0 +1,68 @@
+header {
+    width: 100%;
+    height: 70px;
+    
+}
+header .head_box{
+    width: 100%;
+    background-color: #fff;
+}
+
+header .head_box .logo_box {
+    width: 150px;
+}
+
+header .head_box .logo_box a {
+    display: block;
+    height: 100%;
+}
+
+header .head_box .logo_box img {
+    position: relative;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    
+}
+
+.location_two{
+    border-bottom: 3px solid #ff8a06;
+
+}
+.location_two .text_blue{
+    color: #000099;
+    font-size: 50px;
+}
+.location_two .text_orange{
+    color: #FF9900;
+    font-size: 22px;
+}
+.location_two  .location_pic{
+    min-width: 600px;
+    
+}
+.location_two  .location_pic > ul > li > a img{
+    width: 300px;
+    height: 300px;
+}
+.breadcrumb-item{
+    display: list-item;
+}
+.breadcrumb-item + .breadcrumb-item::before{
+    content: '|';
+    color: Silver;    
+}
+
+footer .footer_text .footer_text_box{
+    background-color: #fff;
+}
+footer p,footer a{
+    font-size: 14px;
+    color: Silver;
+}
+footer p:hover, footer a:hover{
+    color: Silver;
+}
+footer p, footer ul{
+    min-width: 471px;
+}

@@ -1,0 +1,93 @@
+/* footer */
+.to_top{
+    display: block;
+    width: 81px;
+    height: 47px;
+    margin: 0 auto;
+    background: url(../img/top.png) no-repeat;
+}
+.to_top:hover{
+    background: url(../img/topH.png) no-repeat;
+}
+
+footer{
+    border-top: 4px solid #ea5404;
+}
+footer .footer_pic > ul > li a{
+    display: inline-block;
+    height: 37px;
+    width: 37px;
+}
+
+@media (max-width: 767px){
+    footer .footer_pic ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    footer .footer_pic ul li{
+        width: 33.33%;
+        text-align: center;
+    }
+    footer .footer_pic ul li a{
+        width: 86px;
+        height: 86px;
+        transform: scale(0.7, 0.7);
+    }
+    footer .footer_pic > ul > li:nth-child(1) a{
+        background: url(../img/weibo_m.png) no-repeat;
+    }
+    footer .footer_pic > ul > li:nth-child(2) a{
+        background: url(../img/wh_m.png) no-repeat;
+    }
+    footer .footer_pic > ul > li:nth-child(3) a{
+        background: url(../img/slcfl_m.png) no-repeat;
+    }
+}   
+@media (min-width: 768px){
+    footer .footer_pic ul{
+        display: flex;
+        justify-content: flex-end;
+    }
+    footer .footer_pic > ul > li:nth-child(1) a{
+        background: url(../img/weibo.png) no-repeat;
+    }
+    footer .footer_pic > ul > li:nth-child(2) a{
+        background: url(../img/wh.png) no-repeat;
+    }
+    footer .footer_pic > ul > li:nth-child(3) a{
+        background: url(../img/slcfl.png) no-repeat;
+    }
+    footer .footer_pic > ul > li:nth-child(1) a:hover{
+        background: url(../img/weibo_hover.png) no-repeat;
+    }
+    footer .footer_pic > ul > li:nth-child(2) a:hover{
+        background: url(../img/wh_hover.png) no-repeat;
+    }
+    footer .footer_pic > ul > li:nth-child(3) a:hover{
+        background: url(../img/slcfl_hover.png) no-repeat;
+    }
+} 
+.breadcrumb-item + .breadcrumb-item::before{
+    content: '|';
+}
+
+footer .footer_text a{
+    color: #333333;
+}
+footer .footer_text a:hover{
+    color: #ea5404;
+}
+footer .footer_text .footer_text_box{
+    background-color: #fff;
+}
+footer p{
+    font-size: 12px;
+    color: #333333;
+}
+@media (max-width: 576px){
+    footer p.end{
+        display: none;
+    }
+}
+
+
